@@ -2,9 +2,10 @@
 
 Be mindful of infinite loops, especially common with `while`. They can crash your browser!
 
-<details><summary>Consider adding a temporary counter variable to limit the maximum number of iterations.  Click for an  example:</summary>
+Consider adding a temporary counter variable to limit the maximum number of iterations:
 
 ```js
+// numIterations ensures this while loop doesn't go on forever
 var numIterations = 0;
 while (true && numIterations < 100){
   console.log("still going!");
@@ -12,11 +13,8 @@ while (true && numIterations < 100){
 }
 ```
 
-The `numIterations` variable ensures this while loop doesn't go on forever.
-</details>
 
-
-###Security Questions
+### Security Questions
 
 Work in the security_questions.js file.
 
@@ -30,7 +28,7 @@ Work in the security_questions.js file.
 
 
 1. Write code that goes through each of the security questions in your array doing the following:   
-  * `prompt` the user with the question    
+  * use `window.prompt` (short name: `prompt`) to create a popup in the browser with the question    
   * check whether the user's input matches the expected answer    
   		* if the answer does match, ask the next question
   		* if the answer doesn't match, stop asking questions and pop up an alert message.
@@ -38,13 +36,13 @@ Work in the security_questions.js file.
 
 
 
-###Login
+### Login
 
 Work in the login.js file.
 
 4. Create a `userLogin` object with one key for a user's name and one key for the user's password. (Just make up a user name and password.)  
 
-1. Write code that `prompt`s the user for their password with a message customized to the user. For example, if the user name you created is `octocat_rules`, the message should be `"Enter password for user octocat_rules."`
+1. Write code that prompts the user for their password with a message customized to the user. For example, if the user name you created is `octocat_rules`, the message should be `"Enter password for user octocat_rules."`
 
 5. Extend your previous code to check whether the password entered by the user actually matches the password in the `userLogin` object. The code should let the user know whether the passwords matched with console logs or a JavaScript `alert`.
 
@@ -53,7 +51,7 @@ Work in the login.js file.
 Bonus: Modify your user login to give the user only three chances to enter the correct password.
 
 
-##Sing!
+### Sing!
 
 
 Work in the sing.js file.
@@ -66,7 +64,7 @@ Work in the sing.js file.
 		4 bottles of beer on the wall!
 
 
-1. Bonus: fix "1 bottles of beer".
+1. Bonus: fix "1 bottles of beer". It should say "1 bottle of beer". 
 
 1. Bonus: change "0 bottles..." to "No more bottles...".
 

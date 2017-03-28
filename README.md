@@ -1,3 +1,6 @@
+
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
 # Control Flow Training
 
 Be mindful of infinite loops, especially common with `while`. They can crash your browser!

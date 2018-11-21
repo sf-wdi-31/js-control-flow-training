@@ -16,7 +16,7 @@ The `numIterations` variable ensures this while loop doesn't go on forever.
 </details>
 
 
-###Security Questions
+### Security Questions
 
 Work in the security_questions.js file.
 
@@ -38,7 +38,7 @@ Work in the security_questions.js file.
 
 
 
-###Login
+### Login
 
 Work in the login.js file.
 
@@ -53,7 +53,7 @@ Work in the login.js file.
 Bonus: Modify your user login to give the user only three chances to enter the correct password.
 
 
-##Sing!
+## Sing!
 
 
 Work in the sing.js file.

@@ -15,18 +15,11 @@ var securityQuestions = [
 	}
 ]
 
-var userAnswer = "";
-var hacker = false;
-
-for (var i=0; i < securityQuestions.length; i++){
-	userAnswer = prompt(securityQuestions[i].question);
+for (let i = 0; i < securityQuestions.length; i++){
+	let userAnswer = prompt(securityQuestions[i].question);
 	if (userAnswer !== securityQuestions[i].expectedAnswer){
 		alert("Incorrect security question response!");
-    hacker = true;
+		console.log("Stop!");
 		break;
 	}
-}
-
-if (hacker){
-  console.log("Stop!");
 }
